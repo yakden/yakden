@@ -102,6 +102,13 @@ yakden@gmail.com | [github.com/yakden](https://github.com/yakden)
 - Реализовал GDPR Privacy API (экспорт данных, удаление, управление согласиями), KSeF налоговый комплаенс Польши, Stripe-биллинг с тарифными планами
 - Развернул на Kubernetes с ArgoCD GitOps, Terraform AWS, distroless Docker-образами, OpenTelemetry трейсингом, Kong API Gateway и HashiCorp Vault
 
+### SocialBoost — SaaS-платформа для SMM-реселлеров
+**Flask + PostgreSQL + Redis + Stripe + Nginx + HAProxy + Prometheus/Grafana + ELK**
+- Разработал enterprise reseller-панель с 86+ API endpoints, движком динамического тиранного ценообразования и интеграцией с внешним провайдером
+- Реализовал 3-уровневую реферальную систему с автоматическим расчётом комиссий, системой white-code инвайтов и управлением кампаниями
+- Интегрировал Stripe PaymentIntent + Coinbase Commerce для фиатных и крипто-платежей с HMAC-верификацией webhook-подписей
+- Развернул с multi-stage Docker, HAProxy балансировкой, ELK-логированием, Prometheus-мониторингом и полным CI/CD (GitHub Actions с Bandit/Trivy security scanning)
+
 ### NumPulse — SaaS-аналитика телефонных номеров
 **FastAPI + React + Neo4j + PostgreSQL + ClickHouse**
 - Разработал скрейпинг 55+ сайтов SMS-провайдеров с распределёнными краулерами

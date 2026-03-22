@@ -102,6 +102,13 @@ Security-focused full-stack engineer with deep expertise in offensive and defens
 - Implemented GDPR Privacy API (data export, deletion, consent management), KSeF Polish tax compliance, and Stripe billing with tiered pricing
 - Deployed with Kubernetes, ArgoCD GitOps, Terraform AWS, distroless Docker images, OpenTelemetry tracing, Kong API Gateway, and HashiCorp Vault
 
+### SocialBoost — SMM Reseller SaaS Platform
+**Flask + PostgreSQL + Redis + Stripe + Nginx + HAProxy + Prometheus/Grafana + ELK**
+- Built enterprise reseller panel with 86+ API endpoints, dynamic tiered pricing engine, and external provider API integration
+- Implemented 3-level affiliate referral tree with automatic commission calculation, white-code invite system, and campaign management
+- Integrated Stripe PaymentIntent + Coinbase Commerce for fiat and crypto payments with HMAC webhook signature verification
+- Deployed with multi-stage Docker, HAProxy load balancing, ELK log aggregation, Prometheus monitoring, and full CI/CD (GitHub Actions with Bandit/Trivy security scanning)
+
 ### NumPulse — Phone Number Analytics SaaS
 **FastAPI + React + Neo4j + PostgreSQL + ClickHouse**
 - Scraped 55+ SMS provider sites with distributed crawlers

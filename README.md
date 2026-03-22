@@ -158,6 +158,13 @@ Mesh network remote access with **WebRTC streaming**, Windows DXGI screen captur
 
 Scraping 55+ SMS providers. **7-stage NLP pipeline** for message classification. Relationship graphs in Neo4j with REST/GraphQL API.
 
+---
+
+### SocialBoost — SMM Reseller SaaS
+`Flask` `PostgreSQL` `Redis` `Stripe` `Docker` `Prometheus`
+
+Enterprise reseller panel with **3-level affiliate program**, dynamic pricing engine, Stripe + crypto payments, **86+ API endpoints**. Full CI/CD, ELK logging, HAProxy load balancing.
+
 </td>
 </tr>
 </table>
@@ -239,6 +246,13 @@ Scraping 55+ SMS providers. **7-stage NLP pipeline** for message classification.
 <img src="https://img.shields.io/badge/Semgrep-3BA53F?style=flat-square" />
 <img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white" />
 <img src="https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" />
+<img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
+
+<!-- Load Balancing & Logging -->
+<img src="https://img.shields.io/badge/HAProxy-006DA8?style=flat-square" />
+<img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
+<img src="https://img.shields.io/badge/Logstash-005571?style=flat-square&logo=logstash&logoColor=white" />
+<img src="https://img.shields.io/badge/Kibana-005571?style=flat-square&logo=kibana&logoColor=white" />
 
 <!-- Protocols -->
 <img src="https://img.shields.io/badge/SMPP_3.4/5.0-333333?style=flat-square" />
