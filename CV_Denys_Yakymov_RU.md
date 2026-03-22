@@ -28,13 +28,13 @@ yakden@gmail.com | [github.com/yakden](https://github.com/yakden)
 
 **Языки:** Go, Python, TypeScript/JavaScript, C++
 
-**Backend:** Django / Django Ninja, FastAPI, NestJS, Flask, Gin, Express.js, Asterisk PBX
+**Backend:** Django / Django Ninja, FastAPI, Fastify 5, NestJS, Flask, Gin, Express.js, Asterisk PBX
 
-**Frontend:** React 19, Next.js 14-16, Vue 3, Three.js, Tailwind CSS, Material-UI
+**Frontend:** React 19, Next.js 14-16, Vue 3, React Native/Expo, Three.js, Tailwind CSS, Material-UI
 
 **Базы данных:** PostgreSQL, MongoDB, Neo4j, Elasticsearch, ClickHouse, Redis, SQLite, Memgraph, Qdrant
 
-**DevOps и инфраструктура:** Docker, Terraform/OpenTofu, Ansible, Prometheus, Grafana, CrowdSec, Authentik SSO, Certbot, Nginx, GitHub Actions CI/CD
+**DevOps и инфраструктура:** Docker, Kubernetes, Terraform/OpenTofu, Ansible, ArgoCD, Prometheus, Grafana, OpenTelemetry, Jaeger, CrowdSec, Authentik SSO, Kong API Gateway, Certbot, Nginx, GitHub Actions CI/CD
 
 **AI/ML:** YOLOv8, TensorFlow.js, Google Gemini 2.0, Stable Diffusion, Florence-2, GLiNER, Llama-3, FAISS, Surya OCR, DeepSORT
 
@@ -87,6 +87,20 @@ yakden@gmail.com | [github.com/yakden](https://github.com/yakden)
 - Разработал P2P mesh-решение для удалённого доступа с WebRTC для видео/аудио стриминга
 - Реализовал захват экрана Windows через DXGI, TCP-туннелирование и JWT-аутентификацию
 - Создал веб-панель управления с контролем пользователей и мониторингом сессий
+
+### Crypto Signal Trading System
+**FastAPI + Next.js 14 + PostgreSQL + Redis Pub/Sub + Binance WebSocket + Prometheus/Grafana**
+- Спроектировал event-driven платформу из 15 микросервисов, агрегирующую 10+ источников данных в реальном времени (Reddit, Telegram, Twitter/X, on-chain аналитика, Binance WebSocket, CoinGecko, RSS)
+- Разработал signal engine с 30-секундными циклами анализа, скоринг торговых возможностей 0-100 по 4 измерениям (упоминания, сентимент, объём, возраст токена)
+- Реализовал safety-first трейдинг: kill switch, paper trading, DCA-вход, автоматический stop-loss/take-profit, интеграция с биржами через CCXT (Binance, ByBit, OKX)
+- Создал real-time дашборд на Next.js с 3D-визуализациями (Three.js), отслеживанием P&L и admin-панелью мониторинга сервисов
+
+### EcomPilot PL — мультиканальный коммерческий SaaS
+**TypeScript/Fastify 5 + Next.js 14 + React Native/Expo + NATS JetStream + PostgreSQL + ClickHouse + Elasticsearch + Kubernetes**
+- Спроектировал enterprise SaaS-платформу: 17 микросервисов + 3 фронтенд-приложения (web, mobile, admin) в Turborepo монорепо с Drizzle ORM
+- Интегрировал 8 маркетплейсов (Allegro, Vinted, OLX, Etsy, Amazon, eBay, Empik, Erli) с единым управлением листингами, инвентарём и заказами
+- Реализовал GDPR Privacy API (экспорт данных, удаление, управление согласиями), KSeF налоговый комплаенс Польши, Stripe-биллинг с тарифными планами
+- Развернул на Kubernetes с ArgoCD GitOps, Terraform AWS, distroless Docker-образами, OpenTelemetry трейсингом, Kong API Gateway и HashiCorp Vault
 
 ### NumPulse — SaaS-аналитика телефонных номеров
 **FastAPI + React + Neo4j + PostgreSQL + ClickHouse**

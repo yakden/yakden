@@ -28,13 +28,13 @@ Security-focused full-stack engineer with deep expertise in offensive and defens
 
 **Languages:** Go, Python, TypeScript/JavaScript, C++
 
-**Backend:** Django / Django Ninja, FastAPI, NestJS, Flask, Gin, Express.js, Asterisk PBX
+**Backend:** Django / Django Ninja, FastAPI, Fastify 5, NestJS, Flask, Gin, Express.js, Asterisk PBX
 
-**Frontend:** React 19, Next.js 14-16, Vue 3, Three.js, Tailwind CSS, Material-UI
+**Frontend:** React 19, Next.js 14-16, Vue 3, React Native/Expo, Three.js, Tailwind CSS, Material-UI
 
 **Databases:** PostgreSQL, MongoDB, Neo4j, Elasticsearch, ClickHouse, Redis, SQLite, Memgraph, Qdrant
 
-**DevOps & Infrastructure:** Docker, Terraform/OpenTofu, Ansible, Prometheus, Grafana, CrowdSec, Authentik SSO, Certbot, Nginx, GitHub Actions CI/CD
+**DevOps & Infrastructure:** Docker, Kubernetes, Terraform/OpenTofu, Ansible, ArgoCD, Prometheus, Grafana, OpenTelemetry, Jaeger, CrowdSec, Authentik SSO, Kong API Gateway, Certbot, Nginx, GitHub Actions CI/CD
 
 **AI/ML:** YOLOv8, TensorFlow.js, Google Gemini 2.0, Stable Diffusion, Florence-2, GLiNER, Llama-3, FAISS, Surya OCR, DeepSORT
 
@@ -87,6 +87,20 @@ Security-focused full-stack engineer with deep expertise in offensive and defens
 - Developed P2P mesh remote access solution with WebRTC for video/audio streaming
 - Implemented Windows screen capture via DXGI, TCP tunneling, and JWT authentication
 - Built web-based admin panel with user management and session monitoring
+
+### Crypto Signal Trading System
+**FastAPI + Next.js 14 + PostgreSQL + Redis Pub/Sub + Binance WebSocket + Prometheus/Grafana**
+- Architected 15-microservice event-driven platform aggregating 10+ real-time data sources (Reddit, Telegram, Twitter/X, on-chain analytics, Binance WebSocket, CoinGecko, RSS feeds)
+- Built signal engine with 30-second analysis cycles scoring trading opportunities 0-100 across 4 dimensions (mentions, sentiment, volume, token age)
+- Implemented safety-first trading with kill switch, paper trading mode, DCA entry, automatic stop-loss/take-profit, and CCXT exchange integration (Binance, ByBit, OKX)
+- Developed real-time Next.js dashboard with 3D visualizations (Three.js), P&L tracking, and admin panel with service health monitoring
+
+### EcomPilot PL — Multi-Channel Commerce SaaS
+**TypeScript/Fastify 5 + Next.js 14 + React Native/Expo + NATS JetStream + PostgreSQL + ClickHouse + Elasticsearch + Kubernetes**
+- Designed enterprise SaaS platform with 17 microservices + 3 frontend apps (web, mobile, admin) in Turborepo monorepo with Drizzle ORM
+- Integrated 8 marketplaces (Allegro, Vinted, OLX, Etsy, Amazon, eBay, Empik, Erli) with unified listing, inventory, and order management
+- Implemented GDPR Privacy API (data export, deletion, consent management), KSeF Polish tax compliance, and Stripe billing with tiered pricing
+- Deployed with Kubernetes, ArgoCD GitOps, Terraform AWS, distroless Docker images, OpenTelemetry tracing, Kong API Gateway, and HashiCorp Vault
 
 ### NumPulse — Phone Number Analytics SaaS
 **FastAPI + React + Neo4j + PostgreSQL + ClickHouse**

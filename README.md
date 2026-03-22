@@ -115,8 +115,22 @@ AI-powered surveillance with real-time **face detection & recognition**, persist
 
 Multi-agent NLP pipeline: OCR → VLM → NER → Entity Resolution. Knowledge graphs in Memgraph, vector search in Qdrant. Optimized for **8GB VRAM**.
 
+---
+
+### Crypto Signal Trading System
+`FastAPI` `Next.js` `Redis Pub/Sub` `PostgreSQL` `Binance WS`
+
+**15 microservices**, 10+ data sources (Reddit, Telegram, Twitter, on-chain, Binance). 30-sec signal engine with **0-100 scoring**. CCXT exchange integration, fraud detection, kill switch.
+
 </td>
 <td width="50%" valign="top">
+
+### EcomPilot PL — Multi-Channel Commerce SaaS
+`Fastify 5` `Next.js` `React Native` `NATS JetStream` `Kubernetes`
+
+**17 microservices + 3 apps** (web/mobile/admin). Turborepo monorepo, 8 marketplace integrations (Allegro, Amazon, Etsy). KSeF tax compliance, **GDPR Privacy API**, Stripe billing, ArgoCD GitOps.
+
+---
 
 ### Unified Infrastructure Stack
 `Terraform` `Ansible` `Docker` `Prometheus` `Grafana`
@@ -198,11 +212,33 @@ Scraping 55+ SMS providers. **7-stage NLP pipeline** for message classification.
 <img src="https://img.shields.io/badge/TensorFlow.js-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
 <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=google&logoColor=white" />
 
+<!-- Additional Backend -->
+<img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" />
+<img src="https://img.shields.io/badge/NATS-27AAE1?style=flat-square&logo=natsdotio&logoColor=white" />
+<img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=flat-square&logoColor=black" />
+<img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white" />
+<img src="https://img.shields.io/badge/Stripe-008CDD?style=flat-square&logo=stripe&logoColor=white" />
+<img src="https://img.shields.io/badge/MinIO-C72E49?style=flat-square&logo=minio&logoColor=white" />
+
+<!-- Kubernetes & GitOps -->
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+<img src="https://img.shields.io/badge/Kong-003459?style=flat-square&logo=kong&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white" />
+<img src="https://img.shields.io/badge/Jaeger-66CFE3?style=flat-square&logo=jaeger&logoColor=black" />
+
+<!-- Mobile -->
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" />
+
 <!-- Security -->
 <img src="https://img.shields.io/badge/Shodan-CC0000?style=flat-square&logo=shodan&logoColor=white" />
 <img src="https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white" />
 <img src="https://img.shields.io/badge/Nmap-4682B4?style=flat-square" />
 <img src="https://img.shields.io/badge/CrowdSec-5C2D91?style=flat-square" />
+<img src="https://img.shields.io/badge/Semgrep-3BA53F?style=flat-square" />
+<img src="https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white" />
+<img src="https://img.shields.io/badge/HashiCorp_Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black" />
 
 <!-- Protocols -->
 <img src="https://img.shields.io/badge/SMPP_3.4/5.0-333333?style=flat-square" />
