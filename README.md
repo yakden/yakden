@@ -273,9 +273,36 @@ Enterprise reseller panel with **3-level affiliate program**, dynamic pricing en
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=yakden&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=C9D1D9" width="49%" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yakden&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9&langs_count=10" width="40%" />
-</p>
+### `$ wc -l /projects/**/* | sort -rn | head`
+
+<table align="center">
+<tr><td>
+
+```text
+Python          ████████████████████░░░░░  35.2%
+TypeScript      ██████████████░░░░░░░░░░░  28.4%
+Go              █████████░░░░░░░░░░░░░░░░  15.1%
+JavaScript      ████░░░░░░░░░░░░░░░░░░░░░   8.3%
+C++             ██░░░░░░░░░░░░░░░░░░░░░░░   3.8%
+HCL/Terraform   ██░░░░░░░░░░░░░░░░░░░░░░░   3.2%
+HTML/CSS        ██░░░░░░░░░░░░░░░░░░░░░░░   3.1%
+SQL             █░░░░░░░░░░░░░░░░░░░░░░░░   1.7%
+Shell/Bash      █░░░░░░░░░░░░░░░░░░░░░░░░   1.2%
+```
+
+</td><td>
+
+**89+ projects** across 17 categories<br/>
+**24 GitHub repos** (20 private, 4 public)<br/>
+**11 production systems**<br/>
+**200+ microservices** total<br/><br/>
+Backend-heavy: **Django, FastAPI, Fastify,**<br/>
+**NestJS, Flask, Gin, Express, Asterisk**<br/><br/>
+Frontend: **React, Next.js, Vue,**<br/>
+**React Native, Three.js**
+
+</td></tr>
+</table>
 
 <br/>
 
