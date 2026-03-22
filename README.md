@@ -14,7 +14,7 @@
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
 │                                                                      │
-│   Cybersecurity Engineer with full-stack firepower.                   │
+│   Cybersecurity Engineer with full-stack firepower.                  │
 │                                                                      │
 │   I build secure systems from the ground up — then try to break      │
 │   them. From zero-day research on IoT cameras to production B2B      │
