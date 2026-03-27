@@ -28,7 +28,7 @@ yakden@gmail.com | [github.com/yakden](https://github.com/yakden)
 
 **Языки:** Go, Python, TypeScript/JavaScript, C++
 
-**Backend:** Django / Django Ninja, FastAPI, Fastify 5, NestJS, Flask, Gin, Express.js, Asterisk PBX
+**Backend:** Django / Django Ninja, FastAPI, Fastify 5, NestJS, Flask, Gin, Express.js, Asterisk PBX, PJSIP
 
 **Frontend:** React 19, Next.js 14-16, Vue 3, React Native/Expo, Three.js, Tailwind CSS, Material-UI
 
@@ -38,7 +38,7 @@ yakden@gmail.com | [github.com/yakden](https://github.com/yakden)
 
 **AI/ML:** YOLOv8, TensorFlow.js, Google Gemini 2.0, Stable Diffusion, Florence-2, GLiNER, Llama-3, FAISS, Surya OCR, DeepSORT
 
-**Инструменты безопасности:** Shodan, фреймворки OSINT, Nmap, Cameradar, методология OWASP, разработка эксплойтов
+**Инструменты безопасности:** Shodan, фреймворки OSINT, Nmap, Cameradar, методология OWASP, разработка эксплойтов, Deepgram, ElevenLabs
 
 **Протоколы:** SMPP 3.4/5.0, SIP, RTSP, WebRTC, WebSocket, ONVIF, HTTP/2
 
@@ -77,10 +77,16 @@ yakden@gmail.com | [github.com/yakden](https://github.com/yakden)
 - Интегрировал Cloudflare DNS, Mailcow почту, Authentik SSO и CrowdSec WAF
 - Автоматизировал полный деплой с мониторингом, алертингом и харденингом безопасности
 
-### VoIP-сервер с AI голосовым ассистентом
-**Python + Asterisk + Google Gemini API**
-- Разработал SIP-сервер с AI-голосовым ассистентом на базе Gemini для диалогового AI в реальном времени
-- Интегрировал управление календарём, запись звонков, систему тикетов и конвейер обработки аудио
+### GSM/VoLTE → SIP → AI Voice Gateway ⭐ Open Source
+**Python + Kotlin + Asterisk 22 + PJSIP + Next.js 15 + Deepgram + Claude + ElevenLabs + Docker**
+- Спроектировал и разработал полноценную production-ready систему голосового AI-шлюза, мостящего GSM/VoLTE звонки через SIP в AI-конвейер (STT → LLM → TTS)
+- Реализовал Android-приложение (Kotlin + PJSIP) для захвата GSM-аудио, AudioSocket TCP relay, streaming STT/TTS с задержкой <100мс
+- Создал 3 сценария: AI-секретарь (автоответчик), исходящий обзвон (кампании), live-ассистент (подсказки через ChanSpy whisper)
+- Поддержка 3 типов входных каналов: Android GSM/VoLTE bridge, SIP-транки (Zadarma/Telphin), USB-донглы (chan_dongle)
+- Интеллектуальная маршрутизация звонков с оптимизацией стоимости и автоматическим failover
+- Next.js 15 dashboard (Bloomberg-style, mobile-first) с полным CRUD для транков и правил маршрутизации
+- Полный Docker Compose стек из 10+ сервисов с Prometheus/Grafana мониторингом
+- **Repo:** [github.com/yakden/gsm-ai-voice-gateway](https://github.com/yakden/gsm-ai-voice-gateway)
 
 ### Система удалённого доступа
 **Go + React + WebRTC + WebSocket + DXGI**
@@ -121,7 +127,7 @@ yakden@gmail.com | [github.com/yakden](https://github.com/yakden)
 
 - **Тестирование на проникновение:** методология OWASP, оценка безопасности веб-приложений, тестирование безопасности API
 - **OSINT и разведка:** обнаружение активов через Shodan, перечисление RTSP-камер (Cameradar), сетевой фингерпринтинг
-- **Исследование уязвимостей:** разработка эксплойтов для IoT/IP-камер (Dahua, D-Link), анализ уязвимостей на уровне протоколов (RTSP, SIP, SMPP)
+- **Исследование уязвимостей:** разработка эксплойтов, Deepgram, ElevenLabs для IoT/IP-камер (Dahua, D-Link), анализ уязвимостей на уровне протоколов (RTSP, SIP, SMPP)
 - **Аудит безопасности:** комплексные аудиты платформ (аудит WAW на 79 исправлений: аутентификация, авторизация, валидация ввода, криптография, управление сессиями, логирование, CORS, rate limiting, сканирование зависимостей, защита данных, обработка ошибок)
 - **Обнаружение мошенничества:** детекция фрода в SMPP-сообщениях в реальном времени с анализом паттернов и скорингом аномалий
 - **Сетевая безопасность:** эмуляция протоколов для тестирования безопасности, анализ асинхронных сетевых сервисов, сканирование портов

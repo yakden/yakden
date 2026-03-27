@@ -28,7 +28,7 @@ Security-focused full-stack engineer with deep expertise in offensive and defens
 
 **Languages:** Go, Python, TypeScript/JavaScript, C++
 
-**Backend:** Django / Django Ninja, FastAPI, Fastify 5, NestJS, Flask, Gin, Express.js, Asterisk PBX
+**Backend:** Django / Django Ninja, FastAPI, Fastify 5, NestJS, Flask, Gin, Express.js, Asterisk PBX, PJSIP
 
 **Frontend:** React 19, Next.js 14-16, Vue 3, React Native/Expo, Three.js, Tailwind CSS, Material-UI
 
@@ -38,7 +38,7 @@ Security-focused full-stack engineer with deep expertise in offensive and defens
 
 **AI/ML:** YOLOv8, TensorFlow.js, Google Gemini 2.0, Stable Diffusion, Florence-2, GLiNER, Llama-3, FAISS, Surya OCR, DeepSORT
 
-**Security Tools:** Shodan, OSINT frameworks, Nmap, Cameradar, OWASP methodology, custom exploit development
+**Security Tools:** Shodan, OSINT frameworks, Nmap, Cameradar, OWASP methodology, custom exploit development, Deepgram, ElevenLabs
 
 **Protocols:** SMPP 3.4/5.0, SIP, RTSP, WebRTC, WebSocket, ONVIF, HTTP/2
 
@@ -77,10 +77,16 @@ Security-focused full-stack engineer with deep expertise in offensive and defens
 - Integrated Cloudflare DNS, Mailcow email, Authentik SSO, and CrowdSec WAF
 - Automated full-stack deployment with monitoring, alerting, and security hardening
 
-### VoIP Server with AI Voice Assistant
-**Python + Asterisk + Google Gemini API**
-- Built SIP server with AI-powered voice assistant using Gemini for real-time conversational AI
-- Integrated calendar management, call recording, ticket system, and audio processing pipeline
+### GSM/VoLTE → SIP → AI Voice Gateway ⭐ Open Source
+**Python + Kotlin + Asterisk 22 + PJSIP + Next.js 15 + Deepgram + Claude + ElevenLabs + Docker**
+- Designed and built a production-ready voice AI gateway system bridging GSM/VoLTE calls through SIP to an AI pipeline (STT → LLM → TTS)
+- Implemented Android app (Kotlin + PJSIP) for GSM audio capture, AudioSocket TCP relay, streaming STT/TTS with <100ms latency
+- Built 3 call scenarios: AI secretary (auto-answer), outbound dialer (campaigns), live assistant (ChanSpy whisper)
+- Supports 3 input channel types: Android GSM/VoLTE bridge, SIP trunks (Zadarma/Telphin), USB dongles (chan_dongle)
+- Intelligent call routing with cost optimization and automatic failover between channels
+- Next.js 15 dashboard (Bloomberg-style, mobile-first) with full CRUD for trunks and routing rules
+- Complete Docker Compose stack with 10+ services, Prometheus/Grafana monitoring, WireGuard VPN
+- **Repo:** [github.com/yakden/gsm-ai-voice-gateway](https://github.com/yakden/gsm-ai-voice-gateway)
 
 ### Remote Desktop Access System
 **Go + React + WebRTC + WebSocket + DXGI**
@@ -121,7 +127,7 @@ Security-focused full-stack engineer with deep expertise in offensive and defens
 
 - **Penetration Testing:** OWASP methodology, web application security assessment, API security testing
 - **OSINT & Reconnaissance:** Shodan-based asset discovery, RTSP camera enumeration (Cameradar), network fingerprinting
-- **Vulnerability Research:** IoT/IP camera exploit development (Dahua, D-Link), protocol-level vulnerability analysis (RTSP, SIP, SMPP)
+- **Vulnerability Research:** IoT/IP camera exploit development, Deepgram, ElevenLabs (Dahua, D-Link), protocol-level vulnerability analysis (RTSP, SIP, SMPP)
 - **Security Auditing:** Comprehensive platform audits (79-fix WAW audit covering authentication, authorization, input validation, cryptography, session management, logging, CORS, rate limiting, dependency scanning, data protection, error handling)
 - **Fraud Detection:** Real-time SMPP message fraud detection with pattern analysis and anomaly scoring
 - **Network Security:** Protocol emulation for security testing, async network service analysis, port scanning
