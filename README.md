@@ -269,8 +269,8 @@ Enterprise reseller panel with **3-level affiliate program**, dynamic pricing en
 ## `$ uptime`
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yakden&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&ring_color=00FF41" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yakden&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=C9D1D9" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=yakden&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&ring_color=00FF41&cache_seconds=86400&include_all_commits=true" width="49%" />
+  <img src="https://streak-stats.demolab.com/?user=yakden&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00FF41&dates=C9D1D9" width="49%" />
 </p>
 
 ### `$ wc -l /projects/**/* | sort -rn | head`
